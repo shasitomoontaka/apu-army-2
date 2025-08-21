@@ -6,6 +6,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://shasitomoontaka.github.io/apu-army-2/',
 	integrations: [mdx(), sitemap()],
 });
