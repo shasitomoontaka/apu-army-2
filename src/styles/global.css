@@ -1,11 +1,7 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
+
 
 :root {
-	--accent: #2337ff;
+	--accent: #1035EC;
 	--accent-dark: #000d8a;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
@@ -15,6 +11,8 @@
 	--box-shadow:
 		0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%), 0 16px 32px
 		rgba(var(--gray), 33%);
+	--apu-green: #558A36;
+	--apu-green-light: rgba(85, 138, 54, 0.5);
 }
 @font-face {
 	font-family: "Atkinson";
@@ -44,10 +42,9 @@ body {
 	line-height: 1.7;
 }
 main {
-	width: 720px;
-	max-width: calc(100% - 2em);
-	margin: auto;
-	padding: 3em 1em;
+    max-width: calc(100% - 2em);
+    margin: 0; /* Remove auto margins, let content-wrapper handle centering */
+    padding: 3em 1em;
 }
 h1,
 h2,
@@ -61,6 +58,7 @@ h6 {
 }
 h1 {
 	font-size: 3.052em;
+	color: red;
 }
 h2 {
 	font-size: 2.441em;
@@ -127,14 +125,71 @@ hr {
 	border: none;
 	border-top: 1px solid rgb(var(--gray-light));
 }
-@media (max-width: 720px) {
-	body {
-		font-size: 18px;
-	}
-	main {
-		padding: 1em;
-	}
+
+.standard-button {
+	background-color: var(--apu-green);
+	color: white;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 6px;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: 500;
+	cursor: pointer;
+	transition: background-color 0.2s;
+  }
+  
+  .standard-button:hover {
+	background-color: var(--accent);
+	color: white;
+  }
+
+  .center-wrapper {
+	display: flex;
+	justify-content: center;
+	margin: 1rem 0; /* optional spacing */
+	margin-bottom: 3.5rem;
+  }
+
+  .content-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 300px;
+	gap: 2rem;
+	max-width: 1260px;
+	margin: 0 auto;
+	padding: 0 1rem;
 }
+
+/* Square popup-style image */
+.img-square {
+	width: 400px;
+	height: 400px;
+	object-fit: cover; /* fills the square without distortion */
+	border-radius: 8px; /* soft corners */
+	display: block;
+	margin: 0 auto; /* centers horizontally inside container */
+  }
+  
+
+@media (max-width: 720px) {
+  body {
+    font-size: 18px;
+  }
+
+  main {
+    padding: 1em;
+  }
+
+  .content-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+
+}
+
+
+
+
 
 .sr-only {
 	border: 0;

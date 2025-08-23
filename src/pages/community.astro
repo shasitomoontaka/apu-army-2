@@ -1,0 +1,62 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import Sidebar from '../components/Sidebar.astro'; 
+import ProfileCard from '../components/ProfileCard.astro';
+
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+        <BaseHead title="Community" description={SITE_DESCRIPTION} />
+
+	</head>
+	<body>
+		<Header />
+		<div class="content-wrapper">
+            <main>
+                <h1>Community</h1>
+                <p>Apu has a lot of frens. Check what they are building in the Apuverse.</p>
+
+				<section class="profiles">
+					
+					<ProfileCard 
+					name="Apu.com" 
+					description="Official Apu Coin & NFT collection" 
+					imgSrc="/apu-logo.png" 
+					imgAlt="Apu Apustaja $APU Logo"
+					links={[
+					  { text: "Apu.com", href: "https://apu.com" },
+					  { text: "X", href: "https://x.com/apuscoin" }
+					]}
+				  />
+
+				  <ProfileCard 
+				  name="PondTalk" 
+				  description="Hosting the Apu Podcast" 
+				  links={[
+					{ text: "Twitch", href: "https://twitch.com/pondtalk" },
+					{ text: "YouTube", href: "https://youtube.com/@PondTalk" } ,
+					{ text: "X", href: "https://x.com/blewapu" } ,
+					
+				  ]}
+				/>
+				  
+
+
+					
+					
+				  </section>
+            </main>
+              
+              
+              
+			<Sidebar />
+		</div>
+		<Footer />
+
+	</body>
+</html>

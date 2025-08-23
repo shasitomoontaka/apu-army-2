@@ -1,0 +1,41 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import Sidebar from '../components/Sidebar.astro'; 
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+        <BaseHead title="Apu Coin" description={SITE_DESCRIPTION} />
+
+	</head>
+	<body>
+		<Header />
+		<div class="content-wrapper">
+			<main>
+				<h1>What is Apu Coin?</h1>
+				<p>Apu Coin ($APU) is a <a href="https://en.wikipedia.org/wiki/Meme_coin" target="_blank" rel="noopener noreferrer">memecoin</a> for frens.</p>
+                <p>It has no utility but is used as an internet joke, similar to Dogecoin or Pepe.</p>
+                <p>People also see it as a form of membership in an online community.</p>
+                
+
+				<div class="center-wrapper"><img src="/apu-logo.png" alt="Apu Coin Logo"></div>
+
+                <p>It can be traded on crypto exchanges, and its price is often correlated with the size of the community.</p>
+
+                <h2>What is the Apu Apustaja NFT Collection?</h2>
+                <p>Non-Fungible Tokens (NFTs) are unique digital collectibles, comparable to Pokémon cards.</p>
+                <p>The Apu Apustaja Collection contains 7,777 unique Apus that can be traded and collected.</p>
+                
+
+
+			</main>
+			<Sidebar />
+		</div>
+		<Footer />
+
+	</body>
+</html>

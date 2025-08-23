@@ -1,0 +1,31 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import Sidebar from '../components/Sidebar.astro'; 
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+        <BaseHead title="Help Helper" description={SITE_DESCRIPTION} />
+
+	</head>
+	<body>
+		<Header />
+		<div class="content-wrapper">
+			<main>
+				<h1>Help Helper</h1>
+				<p>You can support running this website by</p>
+                <li>Sharing with your frens</li>
+
+                <img class="img-square" src="/apu-love.png" alt="Apu Apustaja Loves You"/>
+
+			</main>
+			<Sidebar />
+		</div>
+		<Footer />
+
+	</body>
+</html>
