@@ -1,62 +1,32 @@
-# Astro Starter Kit: Blog
+# 🐸 Apu Army
 
-```sh
-npm create astro@latest -- --template blog
-```
+**Apu Army** is the central hub for Apu supporters and frens — a place to connect, create, and explore everything happening in the **Apuverse**.  
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🌍 What is Apu Army?
+Apu Army is more than a website — it’s the community home for all things Apu:
+- 🎶 **Music** – Explore community songs, Apu rap, and $APU Higher Records releases.  
+- 🎨 **Projects** – Discover frens building art, NFTs, video games, and more.  
+- 💰 **Apu Coin & NFTs** – Learn about the original [Apu Coin](https://apu.com) and official NFT collections.  
+- 📰 **Apu Blog** – Stay updated on what’s happening in the Apuverse.  
+- 🛠️ **Community Tools** – Crashout Appointment, Shitpost Licence, and more.  
+- 📈 **Research & Trading** – Dive into memecoin insights, market dashboards, and strategies.  
 
-Features:
+## 🔗 Why join?
+The Apu Army brings together builders, investors, and creatives who believe in the power of memes.  
+Whether you’re making music, painting Apus, trading $APU, or just vibing — there’s a place for you here.  
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+## 🚀 Features
+- Community directory of frens and projects  
+- Showcase of Apu-inspired art, memes, and games  
+- Blog updates and announcements  
+- Research and trading tools  
+- Links to Apu NFTs, playlists, and market insights  
 
-## 🚀 Project Structure
+## 🐸 Join the Army
+Explore the hub, contribute your own projects, or just come hang out with frens.  
 
-Inside of your Astro project, you'll see the following folders and files:
+👉 [apuarmy.com](https://apuarmy.com)
 
-```text
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
+---
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+💚 *Apu Strong. Meme Stronger.*
