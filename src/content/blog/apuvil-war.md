@@ -1,6 +1,6 @@
 ---
 title: 'The Apuvil Wars'
-description: 'Lorem ipsum dolor sit amet'
+description: 'How the blews started a war between frens'
 pubDate: 'Aug 01 2025'
 heroImage: '../../assets/peace.jpg'
 ---

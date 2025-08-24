@@ -1,6 +1,6 @@
 ---
 title: 'Blewstein Files'
-description: 'Lorem ipsum dolor sit amet'
+description: 'Time to expose the blew Apu cabal'
 pubDate: 'Aug 10 2025'
 heroImage: '../../assets/blewstein-files.jpeg'
 ---

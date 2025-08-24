@@ -1,6 +1,6 @@
 ---
 title: 'Apu Army v2'
-description: 'Lorem ipsum dolor sit amet'
+description: 'New version of the website now online'
 pubDate: 'Jan 03 2009'
 heroImage: '../../assets/apu-army.jpeg'
 ---
