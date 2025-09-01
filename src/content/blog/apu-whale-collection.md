@@ -27,9 +27,9 @@ Support APU’s token and NFT price growth
 
 Attract whales from other communities
 
-Launch Date: September 8, 2025.
+Launch Date: September 17th 2025 at 2pm EST.
 
-For full details and the official announcement, visit <a href="https://apu.com/news/whale-collection" target="_blank" rel="noopener noreferrer">
+For full details and the official announcement, visit <a href="https://apu.io/news/whale-collection" target="_blank" rel="noopener noreferrer">
   APU Whale Collection</a>
 
 .
