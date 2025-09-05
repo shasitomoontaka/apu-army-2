@@ -251,15 +251,28 @@ function startGame(){
       document.getElementById('restartBtn').addEventListener('click',()=>init());
       canvas.addEventListener('click',()=>{ if(!running) startGame(); });
 
-      let touchStartX=0, touchStartY=0;
-      canvas.addEventListener('touchstart',e=>{ const t=e.touches[0]; touchStartX=t.clientX; touchStartY=t.clientY; });
-      canvas.addEventListener('touchend',e=>{
-        const t=e.changedTouches[0];
-        const dx=t.clientX-touchStartX;
-        const dy=t.clientY-touchStartY;
-        if(Math.abs(dx)>Math.abs(dy)) whale.nextDir=dx>0?'right':'left';
-        else whale.nextDir=dy>0?'down':'up';
-      });
+      let touchStartX = 0, touchStartY = 0;
+
+canvas.addEventListener('touchstart', e => {
+  e.preventDefault(); // stop scroll
+  const t = e.touches[0];
+  touchStartX = t.clientX;
+  touchStartY = t.clientY;
+}, { passive: false });
+
+canvas.addEventListener('touchend', e => {
+  e.preventDefault(); // stop scroll
+  const t = e.changedTouches[0];
+  const dx = t.clientX - touchStartX;
+  const dy = t.clientY - touchStartY;
+
+  if (Math.abs(dx) > Math.abs(dy)) {
+    whale.nextDir = dx > 0 ? 'right' : 'left';
+  } else {
+    whale.nextDir = dy > 0 ? 'down' : 'up';
+  }
+}, { passive: false });
+
 
     })();
     </script>
