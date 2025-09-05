@@ -11,48 +11,64 @@ import Sidebar from '../components/Sidebar.astro';
   <head>
     <BaseHead title="Apu's Shrimp Farm" description={SITE_DESCRIPTION} />
     <style>
-      .game-wrapper {
-        position: relative;
-        max-width: 700px;
-        margin: 0 auto;
-      }
-      canvas {
-        display: block;
-        background: #87ceeb;
-        width: 100%;
-        height: auto;
-      }
-      .score-panel {
-        position: absolute;
-        top: 8px;
-        left: 8px;
-        background: rgba(0,0,0,0.6);
-        color: white;
-        padding: 6px 12px;
-        border-radius: 8px;
-        font-family: sans-serif;
-        font-size: 16px;
-        z-index: 2;
-      }
-      .btn-panel {
-        position: absolute;
-        top: 8px;
-        right: 8px;
-        z-index: 2;
-      }
-      .btn-panel button {
-        margin-left: 4px;
-        padding: 6px 10px;
-        font-size: 14px;
-        border: none;
-        border-radius: 6px;
-        background: #00bfff;
-        color: white;
-        cursor: pointer;
-      }
-      .btn-panel button:hover {
-        background: #009acd;
-      }
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto 12px auto; /* center + space below header */
+  padding: 8px 16px;
+  background: #00bfff;
+  color: white;
+  border-radius: 8px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.game-header .score {
+  font-weight: bold;
+}
+
+.game-header .buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.game-header .buttons button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: white;
+  color: #00bfff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.game-header .buttons button:hover {
+  background: #f0f8ff;
+}
+
+.game-wrapper {
+  max-width: 700px;
+  margin: 0 auto 2rem auto; /* center and space below canvas */
+  position: relative;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #87ceeb;
+  border-radius: 8px;
+}
+
+.center-wrapper {
+  text-align: center;
+  max-width: 700px;
+  margin: 16px auto;
+  font-family: sans-serif;
+}
+
     </style>
   </head>
   <body>
@@ -61,15 +77,17 @@ import Sidebar from '../components/Sidebar.astro';
 		<main>
 			<h1 class="center-wrapper">Apu's Shrimp Farm</h1>
 			<p class="center-wrapper">Make them shrimps your frens.</p>
-		  
+      <div class="game-header">
+        <div class="score">
+          Score: <span id="score">0</span> | Best: <span id="best">0</span>
+        </div>
+        <div class="buttons">
+          <button id="pauseBtn">Start /Pause</button>
+          <button id="restartBtn">Re(s)tard</button>
+        </div>
+      </div>
 			<div class="game-wrapper">
-			  <div class="score-panel">
-				Score: <span id="score">0</span> | Best: <span id="best">0</span>
-			  </div>
-			  <div class="btn-panel">
-				<button id="pauseBtn">Pause</button>
-				<button id="restartBtn">Restart</button>
-			  </div>
+
 			  <canvas id="game"></canvas>
 			</div>
 		  
@@ -273,6 +291,13 @@ canvas.addEventListener('touchend', e => {
   }
 }, { passive: false });
 
+// Start game when tapping anywhere on the canvas (mobile-friendly)
+canvas.addEventListener('touchstart', e => {
+  if (!running) {
+    e.preventDefault(); // prevent accidental scroll
+    startGame();
+  }
+}, { passive: false });
 
     })();
     </script>
