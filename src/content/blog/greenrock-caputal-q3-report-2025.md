@@ -30,7 +30,7 @@ Q3 2025 was a transformative quarter for GreenRock Caputal. Since inception, our
 ### Series B Funding
 
 - Launched with strong participation and engagement across both retail and high-conviction supporters.  
-- Officially initiated by <a href="https://x.com/ᖴάτσ" target="_blank" rel="noopener noreferrer">ᖴάτσ</a>, whose endorsement brought substantial momentum.  
+- Officially initiated by <a href="https://x.com/cryptofacto" target="_blank" rel="noopener noreferrer">ᖴά𝐂τσ</a>, whose endorsement brought substantial momentum.  
 - Followed by <a href="https://x.com/MaxVerstapfren" target="_blank" rel="noopener noreferrer">Max Verstapfren</a> and his bullish thesis of the Benis trait.  
 - Mint volumes in the Apu Shrimp Collection officially surpassed those of whale-based collections, marking a symbolic and economic turning point.  
 - Artist <a href="https://x.com/ApteekkiApu" target="_blank" rel="noopener noreferrer">Teek</a>, after falling victim to a counterfeit scam, publicly rejoined the community through a large-scale rage mint, becoming a Shrimp Whale and vocal supporter of the ecosystem.  
