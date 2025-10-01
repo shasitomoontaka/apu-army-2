@@ -24,17 +24,17 @@ Q3 2025 was a transformative quarter for GreenRock Caputal. Since inception, our
 ### RWA Expansion Initiative
 
 - Executed a <a href="https://x.com/CasioF91W_DB/status/1966868806808031560" target="_blank" rel="noopener noreferrer">successful entry into Real World Asset (RWA)</a> exposure with significant backing from <a href="https://x.com/CasioF91W_DB" target="_blank" rel="noopener noreferrer">gigAPUmp</a>.  
-- With gigAPUmp’s support we secured **500,000 $APU** tokens into our Strategic $APU Reserve.  
-- Added a limited-edition gigAPUmp NFT to our long-term holdings to support the ecosystem’s cultural backbone.
+- With gigAPUmp’s support we secured **500,000 $APU** tokens into our **Strategic $APU Reserve**.  
+- Added a limited-edition **gigAPUmp NFT** to our long-term holdings to support the ecosystem’s cultural backbone.
 
 ### Series B Funding
 
 - Launched with strong participation and engagement across both retail and high-conviction supporters.  
 - Officially initiated by <a href="https://x.com/cryptofacto" target="_blank" rel="noopener noreferrer">ᖴά𝐂τσ</a>, whose endorsement brought substantial momentum.  
-- Followed by <a href="https://x.com/MaxVerstapfren" target="_blank" rel="noopener noreferrer">Max Verstapfren</a> and his bullish thesis of the Benis trait.  
+- Followed by <a href="https://x.com/MaxVerstapfren" target="_blank" rel="noopener noreferrer">Max Verstapfren</a> and his bullish thesis of the **Benis** trait.  
 - Mint volumes in the Apu Shrimp Collection officially surpassed those of whale-based collections, marking a symbolic and economic turning point.  
 - Artist <a href="https://x.com/ApteekkiApu" target="_blank" rel="noopener noreferrer">Teek</a>, after falling victim to a counterfeit scam, publicly rejoined the community through a large-scale rage mint, becoming a Shrimp Whale and vocal supporter of the ecosystem.  
-- Broad support from the $APU, $BITCOIN, and SPX6900 communities. Notable participation included Anon Aeon ($670,000 portfolio), who entered the ecosystem.
+- Broad support from the $APU, $BITCOIN, and SPX6900 communities. Notable participation included **Anon Aeon** ($670,000 portfolio), who entered the ecosystem.
 
 ### IP Violation Incident (Apu Shrimp Jeet Scam)
 
@@ -51,7 +51,7 @@ GreenRock Caputal continues to operate under a long‑horizon, capucity‑driven
 
 ### Current Deployment
 
-- Initial inflows from Series A and B have been converted to $APU to reinforce native token reserves and liquidity positions.  
+- Initial inflows from Series A and B have been **converted to $APU** to reinforce native token reserves and liquidity positions.  
 - Additional allocations have been directed toward:  
   - High-value NFT holdings (Apu Shrimp, gigAPUmp, Apu Apustajas)  
   - Ecosystem development and builder grants  
@@ -80,7 +80,7 @@ GreenRock Caputal will continue developing and resourcing its internal subdivisi
 
 ### RWA & Cultural Asset Acquisition
 
-Plans are underway to explore the acquisition of a 1/1 original painting by Teek, a highly limited and culturally significant piece within the $APU art movement. Discussions with the artist are ongoing. Our objective is to secure the work for the long term, with optionality for future fractionalization or exhibition in digital-native galleries.
+Plans are underway to explore the acquisition of a **1/1 original painting by Teek**, a highly limited and culturally significant piece within the $APU art movement. Discussions with the artist are ongoing. Our objective is to secure the work for the long term, with optionality for future fractionalization or exhibition in digital-native galleries.
 
 ### Ecosystem Engagement
 
