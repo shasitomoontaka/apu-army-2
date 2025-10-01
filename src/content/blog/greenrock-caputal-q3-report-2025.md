@@ -2,7 +2,7 @@
 title: 'GreenRock Caputal Q3 Report 2025'
 description: 'Q3 2025 was a transformative quarter for GreenRock Caputal'
 pubDate: 'Oct 1 2025'
-heroImage: '../../assets/greenrock-banner.png'
+heroImage: '../../assets/greenrock-banner.jpg'
 ---
 
 ## GreenRock Caputal Q3 Report 2025
