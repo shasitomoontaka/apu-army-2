@@ -5,9 +5,7 @@ pubDate: 'Oct 1 2025'
 heroImage: '../../assets/greenrock-banner.jpg'
 ---
 
-## GreenRock Caputal Q3 Report 2025
-
-### Frenture Capital Investment • Strategic $APU Reserve • Hedgeponds Management • Operational Capucity
+Frenture Capital Investment • Strategic $APU Reserve • Hedgeponds Management • Operational Capucity
 
 ## Executive Summary
 
@@ -19,13 +17,13 @@ Q3 2025 was a transformative quarter for GreenRock Caputal. Since inception, our
 
 ### Series A Funding
 
-- Successfully closed with lead backing from <a href="https://x.com/Odin" target="_blank" rel="noopener noreferrer">Odin</a>, early supporter of the Apu Shrimp NFT ecosystem.  
-- Odin provided essential early-stage infrastructure support, including supply-side assistance to the <a href="https://buymeacoffee.com/choccy-milk-pipeline" target="_blank" rel="noopener noreferrer">foundational choccy milk pipeline</a>.  
+- Successfully closed with lead backing from <a href="https://x.com/5headBera" target="_blank" rel="noopener noreferrer">Odin</a>, early supporter of the Apu Shrimp NFT ecosystem.  
+- Odin provided essential early-stage infrastructure support, including supply-side assistance to the <a href="https://buymeacoffee.com/shasito" target="_blank" rel="noopener noreferrer">foundational choccy milk pipeline</a>.  
 - This marked the first formal allocation under GreenRock Caputal’s frenture capital strategy.
 
 ### RWA Expansion Initiative
 
-- Executed a <a href="https://x.com/rwa-entry" target="_blank" rel="noopener noreferrer">successful entry into Real World Asset (RWA)</a> exposure with significant backing from <a href="https://x.com/gigAPUmp" target="_blank" rel="noopener noreferrer">gigAPUmp</a>.  
+- Executed a <a href="https://x.com/CasioF91W_DB/status/1966868806808031560" target="_blank" rel="noopener noreferrer">successful entry into Real World Asset (RWA)</a> exposure with significant backing from <a href="https://x.com/CasioF91W_DB" target="_blank" rel="noopener noreferrer">gigAPUmp</a>.  
 - With gigAPUmp’s support we secured **500,000 $APU** tokens into our Strategic $APU Reserve.  
 - Added a limited-edition gigAPUmp NFT to our long-term holdings to support the ecosystem’s cultural backbone.
 
@@ -35,7 +33,7 @@ Q3 2025 was a transformative quarter for GreenRock Caputal. Since inception, our
 - Officially initiated by <a href="https://x.com/ᖴάτσ" target="_blank" rel="noopener noreferrer">ᖴάτσ</a>, whose endorsement brought substantial momentum.  
 - Followed by <a href="https://x.com/MaxVerstapfren" target="_blank" rel="noopener noreferrer">Max Verstapfren</a> and his bullish thesis of the Benis trait.  
 - Mint volumes in the Apu Shrimp Collection officially surpassed those of whale-based collections, marking a symbolic and economic turning point.  
-- Artist <a href="https://x.com/Teek" target="_blank" rel="noopener noreferrer">Teek</a>, after falling victim to a counterfeit scam, publicly rejoined the community through a large-scale rage mint, becoming a Shrimp Whale and vocal supporter of the ecosystem.  
+- Artist <a href="https://x.com/ApteekkiApu" target="_blank" rel="noopener noreferrer">Teek</a>, after falling victim to a counterfeit scam, publicly rejoined the community through a large-scale rage mint, becoming a Shrimp Whale and vocal supporter of the ecosystem.  
 - Broad support from the $APU, $BITCOIN, and SPX6900 communities. Notable participation included Anon Aeon ($670,000 portfolio), who entered the ecosystem.
 
 ### IP Violation Incident (Apu Shrimp Jeet Scam)
@@ -43,7 +41,7 @@ Q3 2025 was a transformative quarter for GreenRock Caputal. Since inception, our
 - A copy of the Apu Shrimp Collection was fraudulently launched by third parties on OpenSea.  
 - Although temporarily successful, this incident galvanized community solidarity.  
 - Resulted in increased minting activity, deeper engagement, and cultural reinvestment — particularly led by Teek and other ecosystem artists.  
-- Always make sure to only interact with the official <a href="https://the-apu-shrimp-collection.nfts2.me" target="_blank" rel="noopener noreferrer"><strong>Apu Shrimp NFT Collection</strong></a>.
+- Always make sure to only interact with the official <a href="https://the-apu-shrimp-collection.nfts2.me/" target="_blank" rel="noopener noreferrer"><strong>Apu Shrimp NFT Collection</strong></a>.
 
 ---
 
@@ -100,5 +98,3 @@ We thank all participants in Series A and B for their trust and alignment.
 
 **GreenRock Caputal**  
 "Built by frens. Powered by $APU. Structured with capucity."
-
----
